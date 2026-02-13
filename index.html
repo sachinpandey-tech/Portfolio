@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sachin | Portfolio</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+        color:white;
+    }
+
+    header{
+        padding:20px;
+        text-align:center;
+        background: rgba(0,0,0,0.4);
+        backdrop-filter: blur(10px);
+    }
+
+    header h1{
+        font-size:40px;
+        letter-spacing:2px;
+        color:#00e5ff;
+    }
+
+    nav{
+        margin-top:10px;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+    nav a:hover{
+        color:#00e5ff;
+    }
+
+    section{
+        padding:60px 10%;
+    }
+
+    .card{
+        background: rgba(255,255,255,0.08);
+        padding:30px;
+        border-radius:15px;
+        margin-bottom:30px;
+        backdrop-filter: blur(10px);
+        box-shadow:0 0 20px rgba(0,0,0,0.3);
+        transition:0.4s;
+    }
+
+    .card:hover{
+        transform:scale(1.02);
+        box-shadow:0 0 25px #00e5ff;
+    }
+
+    h2{
+        color:#00e5ff;
+        margin-bottom:15px;
+    }
+
+    ul{
+        padding-left:20px;
+    }
+
+    .links a{
+        display:inline-block;
+        margin:10px 15px 0 0;
+        padding:10px 20px;
+        background:#00e5ff;
+        color:black;
+        border-radius:8px;
+        text-decoration:none;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+    .links a:hover{
+        background:white;
+        transform:scale(1.1);
+    }
+
+    footer{
+        text-align:center;
+        padding:20px;
+        background: rgba(0,0,0,0.4);
+        margin-top:30px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sachin Portfolio</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Sachin, a 1st year B.Tech Computer Science student at 
+            KIET (Deemed to be University). I am passionate about software development 
+            and currently learning Python, C++, and C. My goal is to become a 
+            professional software developer and build impactful tech projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python (Beginner)</li>
+            <li>C Programming</li>
+            <li>C++ Programming</li>
+            <li>Problem Solving</li>
+            <li>Programming Fundamentals</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li>Basic Python practice programs</li>
+            <li>C and C++ logic building programs</li>
+            <li>Calculator & beginner projects</li>
+            <li>More projects coming soon on GitHub</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact & Profiles</h2>
+        <p>Connect with me:</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/sachin-pandey-b27785387" target="_blank">LinkedIn</a>
+            <a href="https://github.com/sachinpandey-tech" target="_blank">GitHub</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sachin | Future Software Developer 🚀</p>
+</footer>
+
+</body>
+</html>
